@@ -45,7 +45,7 @@ We also have a neural network, then select a 2 fully connected hidden layers net
   * The DQN agent class, as described in the Deep Q-Learning algorithm. It is included of some methods :
     - constructor : 
         memory buffer,
-        inititalize 2 instance of newral network (target network and local net work
+        inititalize 2 instance of neural network (target network and local network)
     - step() : 
        store a step  by agent that is include of state, reward,next state, done in the replay buffer
        every 4 steps means it has enough samples in the replay buffer, then update target network weights with current weight from local netwrk
