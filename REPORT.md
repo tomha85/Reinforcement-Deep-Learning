@@ -26,3 +26,4 @@ we use a Function Approximator. We then use mean-square error as the loss functi
   | Epsilon decay                       | 0.995 |
   
  #Results
+![image](https://user-images.githubusercontent.com/31414852/114082292-8eda4280-987b-11eb-8934-c4be170d675d.png)
