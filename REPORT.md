@@ -38,7 +38,8 @@ We use a neural network as function approximator here, then select a 2 fully con
  
  
 ![image](https://user-images.githubusercontent.com/31414852/114082292-8eda4280-987b-11eb-8934-c4be170d675d.png)
-**The agent is able to receive an average reward (over 100 episodes) of at least +13, and in 962 episodes **
+
+**The agent is able to receive an average reward (over 100 episodes) of at least 13, and in 962 episodes **
 
 ### Code
   * The DQN agent class, as described in the Deep Q-Learning algorithm. It is included of some methods :
