@@ -9,11 +9,13 @@ The idea of Q-learning is to learn the action-value function Q(s, a)
 
 ![image](https://github.com/tomha85/Reinforcement-Deep-Learning/blob/main/q-learning.png)
 
-we use a function approximator, then use mean-square error as the loss function and update the weights accordingly using gradient descent. Now, the choice remains to choose the function approximator. Enter Deep Learning! We use a neural network as function approximator here. More specifically, we choose a 2-hidden layer network with both the layers having 64 hidden units with relu activation applied after each fully-connected layer. Adam was used as the optimizer for finding the optimal weights
+Looking at image above, you ca see whole Deep Q learning
+we use a function approximator, then use mean-square error as the loss function and update the weights accordingly using gradient descent. 
+We use a neural network as function approximator here. we select a 2-hidden layers network with both the layers having 512 hidden units with relu activation applied after each fully-connected layer. Adam was used as the optimizer for finding the optimal weights.
 
  ### Hyperparameters
 
-  There were many hyperparameters involved in the experiment. The value of each of them is given below:
+  Here is parameters for code
 
   | Hyperparameter                      | Value |
   | ----------------------------------- | ----- |
@@ -29,7 +31,7 @@ we use a function approximator, then use mean-square error as the loss function 
   | Epsilon minimum                     | 0.1   |
   | Epsilon decay                       | 0.995 |
  
- The Neural Networks use the following architecture :
+ The Neural Networks architecture :
 
  Input nodes (37) -> Fully Connected Layer (512 nodes, Relu activation) -> Fully Connected Layer (512 nodes, Relu activation) -> Ouput nodes (4)
  The Neural Networks use the Adam optimizer with a learning rate LR=5e-4 and are trained using a BATCH_SIZE=64
