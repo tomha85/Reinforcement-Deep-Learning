@@ -60,7 +60,7 @@ We use a neural network as function approximator here, then select a 2 fully con
 
     - model.py : Fully connected Neural network using Pytorch
        This network was trained to predict the action rely on the environment states observed. 
-       The input layer which size is the state size parameter
+       The input layer which size is the state size parameter,
        2 hidden fully connected layers of 512 node each,
        The output layer which size is the action_size parameter 
        
