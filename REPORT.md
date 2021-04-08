@@ -71,5 +71,5 @@ We use a neural network as function approximator here, then select a 2 fully con
  Dueling DNQ
  Prioritor experience replay
  
- Now, code was train on workspace Udacity without simulation video lauch, we can not sen raw image and feeding to newral network. In fFuture work, i wil use own computer should  be set up video of agent, and training with pixel.
+ Now, code was trained on workspace Udacity without lauching simulation video, we can not get the raw images and feeding to newral network. In future work, I wil use own computer should  be set up video of agent, and training with pixel.
 
