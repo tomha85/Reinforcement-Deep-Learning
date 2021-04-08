@@ -8,9 +8,9 @@ Q-learning is a type of TD-learning, unlike Monte-Carlo methods, this method lea
 
 ![image](https://github.com/tomha85/Reinforcement-Deep-Learning/blob/main/q-learning.png)
 
-Looking at image above, you ca see whole Deep Q learning
+Looking at image above, you can see  the whole Deep Q learning algorithm
 we use a function approximator, then use mean-square error as the loss function and update the weights accordingly using gradient descent. 
-We use a neural network as function approximator here, then select a 2 fully connected hidden layers network with both the layers having 512 hidden units with relu activation . Adam optimizer was used as the optimizer for finding the optimal weights.
+We also have a neural network, then select a 2 fully connected hidden layers network with both the layers having 512 hidden units with relu activation . Adam optimizer was used  for finding the optimal weights.
 
  ### Hyperparameters
 
