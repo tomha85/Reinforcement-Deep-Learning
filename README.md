@@ -57,3 +57,5 @@ Use the `requirements.txt` file folder to install the required dependencies via 
 pip install -r requirements.txt
 
 ```
+Follow the link below to know more about dependencies installed
+https://github.com/udacity/deep-reinforcement-learning#dependencies
