@@ -49,3 +49,11 @@ Place the file in this folder, unzip (or decompress) the file and then write the
 env = UnityEnvironment(file_name="/data/Banana_Linux_NoVis/Banana.x86_64")
 
 ```
+### Dependencies
+
+Use the `requirements.txt` file folder to install the required dependencies via `pip`.
+
+```
+pip install -r requirements.txt
+
+```
