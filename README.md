@@ -1,4 +1,5 @@
 # Reinforcement-Deep-Learning
+![image](https://user-images.githubusercontent.com/31414852/114075224-520a4d80-9873-11eb-8966-05e3f7999228.png)
 
 Reinforcement learning refers to goal-oriented algorithms, which learn how to attain a complex objective (goal) or maximize along a particular dimension over many steps; for example, maximize the points won in a game over many moves. They can start from a blank slate, and under the right conditions they achieve superhuman performance. Like a child incentivized by spankings and candy, these algorithms are penalized when they make the wrong decisions and rewarded when they make the right ones – this is reinforcement.
 
