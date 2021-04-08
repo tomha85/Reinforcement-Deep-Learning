@@ -68,7 +68,9 @@ We also have a neural network, then select a 2 fully connected hidden layers net
  Implementaion difference method to increase the performance of agent
  
  Double DNQ
+ 
  Dueling DNQ
+ 
  Prioritor experience replay
  
  Now, code was trained on workspace Udacity without lauching simulation video, we can not get the raw images and feeding to newral network. In future work, I wil use own computer should  be set up video of agent, and training with pixel.
