@@ -3,15 +3,14 @@
 
 Deep Q learning combines 2 approaches: A Q-learning(SARSA max) and Deep Neural Network to learn Q table approximation
 
-The idea of Q-learning is to learn the action-value function Q(s, a) 
-    where s represents the current state and a represents the action being evaluated.
- Q-learning is a type of TD-learning, unlike Monte-Carlo methods, this method learn from each step rather than waiting for an episode to terminate. The idea is take an action and put into a new state, we use the current Q-value of that state to estimate for future rewards.
+Q-learning is to learn the action-value function Q(s, a): s: the current state and a: the action being evaluated.
+Q-learning is a type of TD-learning, unlike Monte-Carlo methods, this method learn from each step rather than waiting for an episode to terminate. The idea is take an action and put into a new state, we use the current Q-value of that state to estimate for future rewards.
 
 ![image](https://github.com/tomha85/Reinforcement-Deep-Learning/blob/main/q-learning.png)
 
 Looking at image above, you ca see whole Deep Q learning
 we use a function approximator, then use mean-square error as the loss function and update the weights accordingly using gradient descent. 
-We use a neural network as function approximator here. we select a 2-hidden layers network with both the layers having 512 hidden units with relu activation applied after each fully-connected layer. Adam was used as the optimizer for finding the optimal weights.
+We use a neural network as function approximator here, then select a 2 fully connected hidden layers network with both the layers having 512 hidden units with relu activation . Adam optimizer was used as the optimizer for finding the optimal weights.
 
  ### Hyperparameters
 
@@ -21,11 +20,10 @@ We use a neural network as function approximator here. we select a 2-hidden laye
   | ----------------------------------- | ----- |
   | Replay buffer size                  | 1e5   |
   | Batch size                          | 64    |
-  | $\gamma$ (discount factor)          | 0.99  |
-  | $\tau$                              | 1e-3  |
+  | gamma (discount factor)             | 0.99  |
+  | tau                                 | 1e-3  |
   | Learning rate                       | 5e-4  |
-  | update interval                     | 4     |
-  | Number of episodes                  | 500   |
+  | update interval                     | 4     |  
   | Max number of timesteps per episode | 2000  |
   | Epsilon start                       | 1.0   |
   | Epsilon minimum                     | 0.1   |
@@ -34,7 +32,7 @@ We use a neural network as function approximator here. we select a 2-hidden laye
  The Neural Networks architecture :
 
  Input nodes (37) -> Fully Connected Layer (512 nodes, Relu activation) -> Fully Connected Layer (512 nodes, Relu activation) -> Ouput nodes (4)
- The Neural Networks use the Adam optimizer with a learning rate LR=5e-4 and are trained using a BATCH_SIZE=64
+ The Neural Networks: Adam optimizer, learning rate LR=5e-4 and batch_size=64
  
  # Results
  
@@ -62,7 +60,13 @@ We use a neural network as function approximator here. we select a 2-hidden laye
        This network was trained to predict the action rely on the environment states observed. 
        The input layer which size is the state size parameter
        2 hidden fully connected layers of 512 node each
-       The output layer which size is the action_size parameter       
-
-
+       The output layer which size is the action_size parameter 
+       
+### Future workS
+ Implementaion difference method to increase the performance of agent
+ 
+ Double DNQ
+ Dueling DNQ
+ Prioritor experience replay
+ 
 
