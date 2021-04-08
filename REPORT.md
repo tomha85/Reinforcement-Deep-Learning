@@ -44,7 +44,7 @@ We use a neural network as function approximator here, then select a 2 fully con
 ### Code
   * The DQN agent class, as described in the Deep Q-Learning algorithm. It is included of some methods :
     - constructor : 
-        memory buffer
+        memory buffer,
         inititalize 2 instance of newral network (target network and local net work
     - step() : 
        store a step  by agent that is include of state, reward,next state, done in the replay buffer
@@ -55,13 +55,13 @@ We use a neural network as function approximator here, then select a 2 fully con
        called by learn() to softly update from target neural network from local network weights
     -the replay buffer ():
        store experiences included state, action,reward,next state,done
-       add() to add experience step to memory
+       add() to add experience step to memory,
        sample() to random sample a batch of experience     
 
     - model.py : Fully connected Neural network using Pytorch
        This network was trained to predict the action rely on the environment states observed. 
        The input layer which size is the state size parameter
-       2 hidden fully connected layers of 512 node each
+       2 hidden fully connected layers of 512 node each,
        The output layer which size is the action_size parameter 
        
 ### Future workS
