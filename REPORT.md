@@ -64,11 +64,12 @@ We use a neural network as function approximator here, then select a 2 fully con
        2 hidden fully connected layers of 512 node each,
        The output layer which size is the action_size parameter 
        
-### Future workS
+### Future work
  Implementaion difference method to increase the performance of agent
  
  Double DNQ
  Dueling DNQ
  Prioritor experience replay
  
+ Now, code was train on workspace Udacity without simulation video lauch, we can not sen raw image and feeding to newral network. In fFuture work, i wil use own computer should  be set up video of agent, and training with pixel.
 
