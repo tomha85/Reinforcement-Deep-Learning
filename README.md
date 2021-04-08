@@ -5,6 +5,7 @@
 ### Introduction
 
 Environment details
+
 The environment is based on Unity ML-agents
 
 Note: The project environment provided by Udacity is similar to, but not identical to the Banana Collector environment on the Unity ML-Agents GitHub page.
