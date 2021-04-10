@@ -35,12 +35,11 @@ We also have a neural network, then select a 2 fully connected hidden layers net
  The Neural Networks: Adam optimizer, learning rate LR=5e-4 and batch_size=64
  
  # Results
- ![image](https://user-images.githubusercontent.com/31414852/114101924-6dd21b80-9894-11eb-8678-7b5c5843fee9.png)
-
+ ![image](https://user-images.githubusercontent.com/31414852/114286267-321d8a00-9a2b-11eb-9be3-17ca17c7ca47.png)
  
-![image](https://user-images.githubusercontent.com/31414852/114082292-8eda4280-987b-11eb-8934-c4be170d675d.png)
+![image](https://user-images.githubusercontent.com/31414852/114286268-39dd2e80-9a2b-11eb-80ce-7c5b577bfaf6.png)
 
-**The agent is able to receive an average reward (over 100 episodes) of at least 13, and in 962 episodes **
+**The agent is able to receive an average reward (over 100 episodes) of at least 13, and in 1217 episodes **
 
 ### Code
   * The DQN agent class, as described in the Deep Q-Learning algorithm. It is included of some methods :
