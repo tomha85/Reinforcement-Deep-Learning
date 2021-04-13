@@ -35,13 +35,10 @@ We also have a neural network, then select a 2 fully connected hidden layers net
  The Neural Networks: Adam optimizer, learning rate LR=5e-4 and batch_size=64
  
  # Results
-The best performing agent is to solved the environment in 1200-1317 episodes. The average score of agent was able to solve the environment by achieving score of 13 over 100 consecutive episodes after 1217 episodes.
+The average score of agent was able to solve the environment by achieving score of 13 over 100 consecutive episodes after 741 episodes.
  
- ![image](https://user-images.githubusercontent.com/31414852/114286267-321d8a00-9a2b-11eb-9be3-17ca17c7ca47.png)
- 
-![image](https://user-images.githubusercontent.com/31414852/114286268-39dd2e80-9a2b-11eb-80ce-7c5b577bfaf6.png)
-
-
+![image](https://user-images.githubusercontent.com/31414852/114491187-2b864280-9be4-11eb-8ac8-c687a9d8cb80.png)
+![image](https://user-images.githubusercontent.com/31414852/114491196-3214ba00-9be4-11eb-8aec-05f9e8d722c1.png)
 
 ### Code
   * The DQN agent class, as described in the Deep Q-Learning algorithm. It is included of some methods :
