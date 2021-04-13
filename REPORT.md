@@ -38,6 +38,7 @@ We also have a neural network, then select a 2 fully connected hidden layers net
 The average score of agent was able to solve the environment by achieving score of 13 over 100 consecutive episodes after 741 episodes.
  
 ![image](https://user-images.githubusercontent.com/31414852/114491187-2b864280-9be4-11eb-8ac8-c687a9d8cb80.png)
+
 ![image](https://user-images.githubusercontent.com/31414852/114491196-3214ba00-9be4-11eb-8aec-05f9e8d722c1.png)
 
 ### Code
